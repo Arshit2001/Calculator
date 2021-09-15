@@ -1,7 +1,7 @@
 body {
   padding: 0;
   margin: 0;
-  background: linear-gradient(to right, #00AAFF, #5452dd);
+  background: linear-gradient(to right, #00AAFF, #b3dd52);
 }
 h1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -11,7 +11,7 @@ h1{
     margin-bottom: 1%;
     font-size: 4rem;
     color: darkblue;
-    text-shadow: 5px 0 2px gold;
+    text-shadow: 5px 0 2px yellow;
 }
 .container{
     text-align: center;
@@ -23,19 +23,20 @@ table{
 input{
     height: 58px;
     font-size: 34px;
-    width: auto;
-    border: 5px solid rgb(209, 198, 49);
+    width: 90%;
+    border: 2px solid black;
     border-radius: 10px;
     text-align: right;
     padding: 1% 3%;
+    background-color: whitesmoke;
 }
 button{
     margin: 5px;
     font-size: 30px;
-    background-color: whitesmoke;
+    background-color: rgb(211, 204, 204);
+    border: 2px solid black;
     width: 95px;
     height: 60px;
-    border: none;
     border-radius: 10px;
     height: 60px;
 }
@@ -44,9 +45,9 @@ button:hover{
     color: white;
 }
 .calculator{
-    border: 4px solid darkblue;
-    background-color: rgb(209, 198, 49);
+    border: 5px solid darkblue;
+    background-color:yellow;
     padding: 20px;
-    border-radius: 5px;
+    border-radius: 25px;
     display: inline-block;
 }
